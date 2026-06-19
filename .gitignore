@@ -1,0 +1,36 @@
+# General
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.log
+
+# Node / Frontend
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# Backend
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS menu bar build output
+frontend/menubar/dxFilters.app/
+frontend/menubar/JNTC.app/
+frontend/menubar/Jira Alert.app/
+
+# OS / Temporary
+*.tmp
+*.temp
+.cache/
+*.swp
+*~
